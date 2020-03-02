@@ -430,12 +430,14 @@
             <TextBlock x:Name="textblock19" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         
-        <Viewbox Grid.Column="6" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="6" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img19" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
         
-        <Image x:Name="mood19" Grid.Column="7" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="7" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood19" />
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
@@ -446,44 +448,52 @@
             <Image x:Name="img20" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-            
-        <Image x:Name="mood20" Grid.Column="11" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="11" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood20" />
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock21" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
 
-        <Viewbox Grid.Column="14" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="14" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img21" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood21" Grid.Column="15" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox  Grid.Column="15" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood21"/>
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock22" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         
-        <Viewbox Grid.Column="18" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="18" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img22" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood22" Grid.Column="19" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="19" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood22"/>
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="22" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock23" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
 
-        <Viewbox Grid.Column="22" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="22" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img23" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="22" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood23" Grid.Column="23" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="23" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="Uniform">
+            <Image x:Name="mood23" />
+        </Viewbox>
 
         <!--Medarbejdere BOT Montage-->
         <!--Person-->
@@ -491,46 +501,56 @@
             <TextBlock x:Name="textblock24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
 
-        <Viewbox Grid.Column="6" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="6" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img24" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood24" Grid.Column="7" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="7" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood24" />
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock25" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
-        <Viewbox Grid.Column="10" Grid.Row="30" Grid.ColumnSpan="3" Grid.RowSpan="2">
+        
+        <Viewbox Grid.Column="10" Grid.Row="30" Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img25" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="30" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood25" Grid.Column="11" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="11" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood25"/>
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock26" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
-        <Viewbox Grid.Column="14" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        
+        <Viewbox Grid.Column="14" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img26" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood26" Grid.Column="15" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="15" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood26" />
+        </Viewbox>
 
         <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock27" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         
-        <Viewbox Grid.Column="18" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.Column="18" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
             <Image x:Name="img27" Source="Assets\Man.png"></Image>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        
-        <Image x:Name="mood27" Grid.Column="19" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Viewbox Grid.Column="19" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name="mood27"/>
+        </Viewbox>
 
         <!--Headline box Lager-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="38"  Grid.ColumnSpan="21" Grid.RowSpan="2" Background="#E12728">
