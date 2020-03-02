@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FeelGoodTable"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920">
-        
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -207,26 +207,50 @@
         <!--Medarbejdere BOT Indkøb Intern salg og marketing-->
 
         <!--Headline box Økonomi-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="4"  Grid.ColumnSpan="21" Grid.RowSpan="2">
-            <TextBlock TextWrapping="Wrap" Text="Økonomi" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="4"  Grid.ColumnSpan="21" Grid.RowSpan="2" Background="#E12728">
+            <TextBlock TextWrapping="Wrap" Text="Økonomi" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="17" Foreground="#EFEFEF"/>
         </Border>
         <!--Outer Økonomi-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="6"  Grid.ColumnSpan="21" Grid.RowSpan="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="6"  Grid.ColumnSpan="21" Grid.RowSpan="6" Background="#EFEFEF" Opacity="0.6"/>
 
         <!--Økonomi Medarbejdere Økonomi-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock5" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="31" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img5" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="32" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="35" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="32" Grid.Row="9" Grid.ColumnSpan="2" Grid.RowSpan="3" Stretch="UniformToFill" Height="22" Margin="0,22,20,0" VerticalAlignment="Top">
+            <Image x:Name ="mood5"/>
+        </Viewbox>
+        <!---->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="35" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock6" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="35" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img6" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="35" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="36" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="36" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood6"/>
+        </Viewbox>
+        <!---->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock7" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="39" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img7" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="40" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-
+        <Viewbox Grid.Column="340" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood7"/>
+        </Viewbox>
+        <!---->
+        
         <!--Headline box QHSE Lean-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="4"  Grid.ColumnSpan="13" Grid.RowSpan="2">
             <TextBlock TextWrapping="Wrap" Text="QHSE og Lean" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -331,28 +355,61 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
 
         <!--Headline box Lager-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="38"  Grid.ColumnSpan="21" Grid.RowSpan="2">
-            <TextBlock TextWrapping="Wrap" Text="Lager" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="38"  Grid.ColumnSpan="21" Grid.RowSpan="2" Background="#E12728">
+            <TextBlock TextWrapping="Wrap" Text="Lager" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="17" Foreground="#EFEFEF"/>
         </Border>
         <!--Outer Lager-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="40"  Grid.ColumnSpan="21" Grid.RowSpan="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="40"  Grid.ColumnSpan="21" Grid.RowSpan="6" Background="#EFEFEF" Opacity="0.6"/>
         <!--Medarbejdere TOP Lager-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock38" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="6" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img38" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="7" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="7" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood38"/>
+        </Viewbox>
+        <!---->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock39" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="10" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img39" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="11" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="11" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood39"/>
+        </Viewbox>
+        <!---->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock40" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="14" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img40" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="15" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="15" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood40"/>
+        </Viewbox>
+        <!---->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock41" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="18" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Image x:Name="img41" Source="Assets\Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-
+        <Viewbox Grid.Column="19" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood41"/>
+        </Viewbox>
+        <!---->
+        
         <!--Headline box Kantine-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="38"  Grid.ColumnSpan="5" Grid.RowSpan="2">
             <TextBlock TextWrapping="Wrap" Text="Kantine" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -405,11 +462,11 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="66" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-        
+
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="69" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="69" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="70" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
-        
+
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
