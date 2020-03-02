@@ -910,7 +910,7 @@
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="51" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Viewbox Grid.Column="6" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
-                <Image x:Name="img30" Source="Assets\Man.png"/>
+                <Image x:Name="img30" Source="Assets\jennerManden.jpg"/>
             </Viewbox>
         </Border>
         <Viewbox  Grid.Column="52" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
