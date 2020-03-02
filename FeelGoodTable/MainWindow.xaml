@@ -1,0 +1,485 @@
+﻿<Window x:Class="FeelGoodTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FeelGoodTable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+        
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--Background Image-->
+        <Viewbox Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="95" Grid.RowSpan="49" Stretch="UniformToFill" Opacity="0.20">
+            <Image Source="Assets\wp2.jpg"></Image>
+        </Viewbox>
+        <!--Headline box Indkøb Intern salg og marketing-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="4"  Grid.ColumnSpan="21" Grid.RowSpan="2" Background="#E12728">
+            <TextBlock TextWrapping="Wrap" Text="Indkøb, Intern Salg og Marketing" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="17" Foreground="#EFEFEF"/>
+        </Border>
+        <!--Outer Indkøb Intern salg og marketing-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="6"  Grid.ColumnSpan="21" Grid.RowSpan="11" Background="#EFEFEF" Opacity="0.6"/>
+        <!--Medarbejdere TOP Indkøb Intern salg og marketing-->
+        <!--Person-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock1" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="6" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img1" Source="Assets\Man.png"/>
+        </Viewbox>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Viewbox Grid.Column="7" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood1"/>
+        </Viewbox>
+        <!---->
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock Name="textblock2" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="10" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img2" Source="Assets/Man.png"/>
+        </Viewbox>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Viewbox Grid.Column="11" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood2" Stretch="Uniform"/>
+        </Viewbox>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock Name="InternSalg2" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="15" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock Name="Marketing" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Medarbejdere BOT Indkøb Intern salg og marketing-->
+
+        <!--Headline box Økonomi-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="4"  Grid.ColumnSpan="21" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Økonomi" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Økonomi-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="6"  Grid.ColumnSpan="21" Grid.RowSpan="6"/>
+
+        <!--Økonomi Medarbejdere Økonomi-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="32" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="35" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="35" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="36" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="40" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+
+        <!--Headline box QHSE Lean-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="4"  Grid.ColumnSpan="13" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="QHSE og Lean" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer QHSE lean-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="6"  Grid.ColumnSpan="13" Grid.RowSpan="6"/>
+
+        <!--Medarbejdere TOP QHSE Lean-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="57" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="60" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="60" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="61" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Planlægning, Projekt og Support-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="72" Grid.Row="4"  Grid.ColumnSpan="17" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Planlægning, Projekt og Support" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Planlægning, Projekt og Support-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="72" Grid.Row="6"  Grid.ColumnSpan="17" Grid.RowSpan="11"/>
+        <!--Medarbejdere TOP Indkøb Intern salg og marketing-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="78" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="82" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="86" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <!--Medarbejdere BOT Indkøb Intern salg og marketing-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="12"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="13"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="15" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="12" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="13"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="78" Grid.Row="15" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="12" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="13"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="82" Grid.Row="15" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="12"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="13"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="86" Grid.Row="15" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Montage-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="21"  Grid.ColumnSpan="21" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Montage" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Montage-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="23"  Grid.ColumnSpan="21" Grid.RowSpan="11"/>
+        <!--Medarbejdere TOP Montage-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="7" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="11" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="15" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="22" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="22" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="23" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Medarbejdere BOT Montage-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="7" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="30" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="11" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="15" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Lager-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="38"  Grid.ColumnSpan="21" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Lager" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Lager-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="5" Grid.Row="40"  Grid.ColumnSpan="21" Grid.RowSpan="6"/>
+        <!--Medarbejdere TOP Lager-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="6" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="7" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="10" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="11" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="14" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="15" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="18" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="19" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Kantine-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="38"  Grid.ColumnSpan="5" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Kantine" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Kantine-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="30" Grid.Row="40"  Grid.ColumnSpan="5" Grid.RowSpan="6"/>
+        <!--Kantine Medarbejdere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="32" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Eksterne salg-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="38"  Grid.ColumnSpan="21" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Eksterne salg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Eksterne salg-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="40"  Grid.ColumnSpan="21" Grid.RowSpan="6"/>
+        <!--Eksterne salg Medarbejdere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="40" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="40" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="41" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="44" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="44" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="45" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="48" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="48" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="49" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="52" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="52" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="53" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="57" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Studerende -->
+        <!--Outer Studerende-->
+        <!--Studerende Mederabejdere-->
+
+        <!--Headline box Service -->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="38"  Grid.ColumnSpan="25" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Service" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Service-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="40"  Grid.ColumnSpan="25" Grid.RowSpan="6"/>
+        <!--Service Mederabejdere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="66" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="69" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="69" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="70" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="78" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="82" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="41"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="42"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="86" Grid.Row="44" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Reasearch and development-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="72" Grid.Row="21"  Grid.ColumnSpan="17" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Research og Development" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Research and development-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="72" Grid.Row="23"  Grid.ColumnSpan="17" Grid.RowSpan="11"/>
+        <!--Medarbejdere TOP Research and development-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="78" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="82" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="85" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="86" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <!--Medarbejdere BOT Research and development-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="29"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="73" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="74" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="29" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="77" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="78" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="29" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="81" Grid.Row="30"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="82" Grid.Row="32" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <!--Headline box Ledere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="42" Grid.Row="21"  Grid.ColumnSpan="13" Grid.RowSpan="2">
+            <TextBlock TextWrapping="Wrap" Text="Ledergruppe" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <!--Outer Ledere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="42" Grid.Row="23"  Grid.ColumnSpan="13" Grid.RowSpan="6"/>
+        <!--Medarbejdere Ledere-->
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="43" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="43" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="44" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="47" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="47" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="48" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="51" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="51" Grid.Row="25"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="52" Grid.Row="27" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Label Content="+2" Grid.Column="90" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="42" VerticalAlignment="Center" Grid.ColumnSpan="4" Width="51" Height="22"/>
+
+    </Grid>
+</Window>
