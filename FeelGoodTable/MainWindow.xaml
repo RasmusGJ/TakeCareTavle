@@ -535,6 +535,7 @@
         <!--Outer Ledere-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="42" Grid.Row="23"  Grid.ColumnSpan="13" Grid.RowSpan="6" />
         <!--Medarbejdere Ledere-->
+        <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="43" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock28" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
@@ -547,6 +548,7 @@
             <Image x:Name ="mood28"/>
         </Viewbox>
 
+        <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="47" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock29" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
@@ -559,6 +561,7 @@
             <Image x:Name ="mood29"/>
         </Viewbox>
 
+        <!--Person-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="51" Grid.Row="24"  Grid.ColumnSpan="3" Grid.RowSpan="1">
             <TextBlock x:Name="textblock30" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
