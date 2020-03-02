@@ -264,26 +264,47 @@
             <Image x:Name ="mood7"/>
         </Viewbox>
         <!---->
-        
+
         <!--Headline box QHSE Lean-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="4"  Grid.ColumnSpan="13" Grid.RowSpan="2">
-            <TextBlock TextWrapping="Wrap" Text="QHSE og Lean" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="4"  Grid.ColumnSpan="13" Grid.RowSpan="2" Background="#E12728">
+            <TextBlock TextWrapping="Wrap" Text="QHSE og Lean" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="17" Foreground="#EFEFEF"/>
         </Border>
         <!--Outer QHSE lean-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="6"  Grid.ColumnSpan="13" Grid.RowSpan="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="55" Grid.Row="6"  Grid.ColumnSpan="13" Grid.RowSpan="6" Background="#EFEFEF" Opacity="0.6"/>
 
         <!--Medarbejdere TOP QHSE Lean-->
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock8" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="56" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img8" Source="Assets/Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="56" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="57" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="57" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood8" Stretch="Uniform"/>
+        </Viewbox>
 
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="60" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="60" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock9" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="60" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img9" Source="Assets/Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="60" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="61" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="61" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood9" Stretch="Uniform"/>
+        </Viewbox>
 
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="7"  Grid.ColumnSpan="3" Grid.RowSpan="1">
+            <TextBlock x:Name="textblock10" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Viewbox Grid.Column="64" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2" Stretch="Uniform">
+            <Image x:Name ="img10" Source="Assets/Man.png"/>
+        </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="64" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="65" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Viewbox Grid.Column="65" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+            <Image x:Name ="mood10" Stretch="Uniform"/>
+        </Viewbox>
 
         <!--Headline box Planlægning, Projekt og Support-->
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="72" Grid.Row="4"  Grid.ColumnSpan="17" Grid.RowSpan="2" Background="#E12728">
