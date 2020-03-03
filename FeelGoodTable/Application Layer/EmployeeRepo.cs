@@ -11,16 +11,6 @@ namespace FeelGoodTable
         public List<Employee> employees = new List<Employee>();
         public EmployeeRepo()
         {
-            Employee employee = new Employee();
-            employee.Name = "Mette";
-            employee.Mood = "HappySmiley.png";
-            Employee employee2 = new Employee();
-            employee2.Name = "Kia";
-            employee2.Mood = "SadSmiley.png";
-
-            AddEmployee(employee);
-            AddEmployee(employee2);
-            /*
             using (SqlConnection conn = new SqlConnection())
             {
                 conn.ConnectionString = "Server=10.56.8.32;Database=A_GRUPEDB02_2019;User Id=A_GRUPE02;Password=A_OPENDB02";
@@ -36,11 +26,12 @@ namespace FeelGoodTable
                         Employee employee = new Employee();
                         string resizedName = ResizeName(reader.GetString("Name"));
                         employee.Name = resizedName;
+                        employee.Mood = reader.GetString("Img");
                         AddEmployee(employee);
                     }
                 }
             }
-            */
+
         }       
 
         public void AddEmployee(Employee employee)

@@ -35,6 +35,12 @@ namespace FeelGoodTable
         {
             empInserts.Add(new EmpInsert(textblock1, img1, mood1));
             empInserts.Add(new EmpInsert(textblock2, img2, mood2));
+            empInserts.Add(new EmpInsert(textblock3, img3, mood3));
+            empInserts.Add(new EmpInsert(textblock4, img4, mood4));
+            empInserts.Add(new EmpInsert(textblock5, img5, mood5));
+            empInserts.Add(new EmpInsert(textblock6, img6, mood6));
+            empInserts.Add(new EmpInsert(textblock7, img7, mood7));
+            empInserts.Add(new EmpInsert(textblock8, img8, mood8));
         }
 
         public void InsertControlValue()
