@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="Assets\HappySmiley.png" />
+    <None Remove="Assets\jennerManden.jpg" />
     <None Remove="Assets\Man.jpg" />
     <None Remove="Assets\Man.png" />
     <None Remove="Assets\maxresdefault.png" />
@@ -23,6 +24,7 @@
 
   <ItemGroup>
     <Resource Include="Assets\HappySmiley.png" />
+    <Resource Include="Assets\jennerManden.jpg" />
     <Resource Include="Assets\Man.png" />
     <Resource Include="Assets\maxresdefault.png" />
     <Resource Include="Assets\NeutralSmiley.png" />
