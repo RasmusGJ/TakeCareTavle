@@ -236,7 +236,7 @@
             <Image x:Name ="img5" Source="Assets\Man.png"/>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="31" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Viewbox Grid.Column="32" Grid.Row="9" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+        <Viewbox Grid.Column="32" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
             <Image x:Name ="mood5"/>
         </Viewbox>
         <!---->
@@ -260,7 +260,7 @@
             <Image x:Name="img7" Source="Assets\Man.png"/>
         </Viewbox>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Column="39" Grid.Row="8"  Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Viewbox Grid.Column="340" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
+        <Viewbox Grid.Column="40" Grid.Row="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Stretch="UniformToFill">
             <Image x:Name ="mood7"/>
         </Viewbox>
         <!---->
