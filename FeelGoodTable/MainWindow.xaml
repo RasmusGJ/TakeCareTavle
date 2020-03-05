@@ -917,6 +917,5 @@
             <Image x:Name ="mood30"/>
         </Viewbox>
         
-        <Label Content="+2" Grid.Column="90" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="42" VerticalAlignment="Center" Grid.ColumnSpan="4" Width="51" Height="22"/>
     </Grid>
 </Window>
